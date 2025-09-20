@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class Tp1EditorTarget : TargetRules
+public class TpProg1EditorTarget : TargetRules
 {
-	public Tp1EditorTarget(TargetInfo Target) : base(Target)
+	public TpProg1EditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6;
-		ExtraModuleNames.Add("Tp1");
+		ExtraModuleNames.Add("TpProg1");
 	}
 }

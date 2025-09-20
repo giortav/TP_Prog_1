@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class Tp1 : ModuleRules
+public class TpProg1 : ModuleRules
 {
-	public Tp1(ReadOnlyTargetRules Target) : base(Target)
+	public TpProg1(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
@@ -24,20 +24,20 @@ public class Tp1 : ModuleRules
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
 		PublicIncludePaths.AddRange(new string[] {
-			"Tp1",
-			"Tp1/Variant_Platforming",
-			"Tp1/Variant_Platforming/Animation",
-			"Tp1/Variant_Combat",
-			"Tp1/Variant_Combat/AI",
-			"Tp1/Variant_Combat/Animation",
-			"Tp1/Variant_Combat/Gameplay",
-			"Tp1/Variant_Combat/Interfaces",
-			"Tp1/Variant_Combat/UI",
-			"Tp1/Variant_SideScrolling",
-			"Tp1/Variant_SideScrolling/AI",
-			"Tp1/Variant_SideScrolling/Gameplay",
-			"Tp1/Variant_SideScrolling/Interfaces",
-			"Tp1/Variant_SideScrolling/UI"
+			"TpProg1",
+			"TpProg1/Variant_Platforming",
+			"TpProg1/Variant_Platforming/Animation",
+			"TpProg1/Variant_Combat",
+			"TpProg1/Variant_Combat/AI",
+			"TpProg1/Variant_Combat/Animation",
+			"TpProg1/Variant_Combat/Gameplay",
+			"TpProg1/Variant_Combat/Interfaces",
+			"TpProg1/Variant_Combat/UI",
+			"TpProg1/Variant_SideScrolling",
+			"TpProg1/Variant_SideScrolling/AI",
+			"TpProg1/Variant_SideScrolling/Gameplay",
+			"TpProg1/Variant_SideScrolling/Interfaces",
+			"TpProg1/Variant_SideScrolling/UI"
 		});
 
 		// Uncomment if you are using Slate UI

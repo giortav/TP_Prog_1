@@ -1,8 +1,8 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "Tp1GameMode.h"
+#include "TpProg1GameMode.h"
 
-ATp1GameMode::ATp1GameMode()
+ATpProg1GameMode::ATpProg1GameMode()
 {
 	// stub
 }

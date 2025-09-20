@@ -1,15 +1,15 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 
-#include "Tp1PlayerController.h"
+#include "TpProg1PlayerController.h"
 #include "EnhancedInputSubsystems.h"
 #include "Engine/LocalPlayer.h"
 #include "InputMappingContext.h"
 #include "Blueprint/UserWidget.h"
-#include "Tp1.h"
+#include "TpProg1.h"
 #include "Widgets/Input/SVirtualJoystick.h"
 
-void ATp1PlayerController::BeginPlay()
+void ATpProg1PlayerController::BeginPlay()
 {
 	Super::BeginPlay();
 
@@ -26,14 +26,14 @@ void ATp1PlayerController::BeginPlay()
 
 		} else {
 
-			UE_LOG(LogTp1, Error, TEXT("Could not spawn mobile controls widget."));
+			UE_LOG(LogTpProg1, Error, TEXT("Could not spawn mobile controls widget."));
 
 		}
 
 	}
 }
 
-void ATp1PlayerController::SetupInputComponent()
+void ATpProg1PlayerController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
 

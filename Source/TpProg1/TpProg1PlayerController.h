@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
-#include "Tp1PlayerController.generated.h"
+#include "TpProg1PlayerController.generated.h"
 
 class UInputMappingContext;
 class UUserWidget;
@@ -14,7 +14,7 @@ class UUserWidget;
  *  Manages input mappings
  */
 UCLASS(abstract)
-class ATp1PlayerController : public APlayerController
+class ATpProg1PlayerController : public APlayerController
 {
 	GENERATED_BODY()
 	
